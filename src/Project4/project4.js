@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from "react";
 // 리셋
 import "../assets/css/minireset.css"
 // font
@@ -14,6 +15,30 @@ import Footer from './toggle/Footer'
 
 
 const project4 = () => {
+
+    function App() {
+        const [ScrollY, setScrollY] = useState(0); // window 의 pageYOffset값을 저장
+        const [ScrollActive, setScrollActive] = useState(false);
+        function handleScroll() {
+          if (ScrollY > 299) {
+            setScrollY(window.pageYOffset);
+            setScrollActive(true);
+          } else {
+            setScrollY(window.pageYOffset);
+            setScrollActive(false);
+          }
+        }
+        useEffect(() => {
+          function scrollListener() {
+            window.addEventListener("scroll", handleScroll);
+          } //  window 에서 스크롤을 감시 시작
+          scrollListener(); // window 에서 스크롤을 감시
+          return () => {
+            window.removeEventListener("scroll", handleScroll);
+          }; //  window 에서 스크롤을 감시를 종료
+        });
+    }
+
     return (
         <div className={style.container}>
             <header>
