@@ -1,0 +1,73 @@
+.selet_wrap {
+    width: 100%;
+    position: relative;
+}
+.select {
+    font-size: 14px;
+    line-height: 16px;    
+    font-family: "NanumSquare";
+    font-weight: 800;
+    text-align: left;
+    width: 100%;
+    padding: 13px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background: url(../images/arrow_down.svg) no-repeat 100% 50%;
+    background-size: 20px;
+    appearance: none;
+}
+.trun {
+    font-size: 14px;
+    line-height: 16px;    
+    font-family: "NanumSquare";
+    font-weight: 800;
+    text-align: left;
+    width: 100%;
+    padding: 13px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background: url(../images/arrow_up.svg) no-repeat 100% 50%;
+    background-size: 20px;
+    appearance: none;
+}
+.down {
+    width: 100%;
+    position: absolute;
+    top: 0; bottom: auto;
+    padding: 15px;
+    transform: translateY(-100%);
+    border: 1px solid #000;
+    background-color: #fff;
+    z-index: 2;
+    display: none;
+}
+.down li a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #222;
+    display: block;
+    position: unset;
+}
+.on {
+    width: 100%;
+    position: absolute;
+    top: 0px; bottom: auto;
+    padding: 15px;
+    transform: translateY(-100%);
+    border: 1px solid #000;
+    background-color: #fff;
+    z-index: 2;
+    display: block;
+}
+.on li a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #222;
+    display: block;
+    position: unset;
+}
+font {
+    font-style: none;
+}

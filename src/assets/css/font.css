@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Bold.woff2),
+    url(fonts/NotoSansKR-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Medium.woff2),
+    url(fonts/NotoSansKR-Medium.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Regular.woff2),
+    url(fonts/NotoSansKR-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Light.woff2),
+    url(fonts/NotoSansKR-Light.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'FiraSans';
+    src: local('FiraSans'),
+    url(fonts/FiraSans-Bold.woff2),
+    url(fonts/FiraSans-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'FiraSans';
+    src: local('FiraSans'),
+    url(fonts/FiraSans-Regular.woff2),
+    url(fonts/FiraSans-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'DMSans';
+    src: local('DMSans'),
+    url(fonts/DMSans-Regular.woff2),
+    url(fonts/DMSans-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SourceSerif4';
+    src: local('SourceSerif4'),
+    url(fonts/SourceSerif4-Regular.woff2),
+    url(fonts/SourceSerif4-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: local('Pretendard'),
+    url(fonts/Pretendard-Medium.woff2),
+    url(fonts/Pretendard-Medium.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: local('Pretendard'),
+    url(fonts/Pretendard-Bold.woff2),
+    url(fonts/Pretendard-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: local('SpoqaHanSansNeo'),
+    url(fonts/SpoqaHanSansNeo-Regular.woff2),
+    url(fonts/SpoqaHanSansNeo-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: local('SpoqaHanSansNeo'),
+    url(fonts/SpoqaHanSansNeo-Medium.woff2),
+    url(fonts/SpoqaHanSansNeo-Medium.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: local('SpoqaHanSansNeo'),
+    url(fonts/SpoqaHanSansNeo-Bold.woff2),
+    url(fonts/SpoqaHanSansNeo-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SCDream4';
+    src: local('SCDream4'),
+    url(fonts/SCDream4.woff2),
+    url(fonts/SCDream4.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SCDream6';
+    src: local('SCDream6'),
+    url(fonts/SCDream6.woff2),
+    url(fonts/SCDream6.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Goldplay';
+    src: local('Goldplay'),
+    url(fonts/GoldplayAlt-Black.woff2),
+    url(fonts/GoldplayAlt-Black.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'CooperBlackStd';
+    src: local('CooperBlackStd'),
+    url(fonts/CooperBlackStd.woff2),
+    url(fonts/CooperBlackStd.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: local('Calibre'),
+    url(fonts/CalibreSemibold.woff2),
+    url(fonts/CalibreSemibold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: local('Calibre'),
+    url(fonts/CalibreSemibold.woff2),
+    url(fonts/CalibreSemibold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(fonts/NanumSquareB.woff2),
+    url(fonts/NanumSquareB.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(fonts/NanumSquareEB.woff2),
+    url(fonts/NanumSquareEB.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800;
+}
