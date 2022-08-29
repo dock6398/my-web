@@ -10,22 +10,21 @@ html {
 }
 body {
     width: 100%;
+    border: 5px solid #000;
     min-width: 320px;
     max-width: 450px;
     font-family: "NanumSquare", "나눔스퀘어", "나눔고딕", "맑은고딕", "돋움", sans-serif;
     font-weight: 800;
     overflow-x: hidden;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .container {
     width: 100%;
-    border: 5px solid #000;
     min-width: 320px;
     max-width: 450px;
     height: 100%;
     white-space : pre-wrap;
-    margin-top: 50px;
 }
 .container header {
     width: 100%;
