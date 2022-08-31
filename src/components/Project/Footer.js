@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import style from "./Footer.module.css"
+import style from "./Style.module.css"
 
 const Footer = () => {
 

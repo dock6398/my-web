@@ -26,6 +26,11 @@ body {
     height: 100%;
     white-space : pre-wrap;
 }
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
 .container header {
     width: 100%;
     min-width: 320px;
@@ -59,11 +64,71 @@ nav {
     width: 197px; height: 16px;
 }
 
+.button {
+    background: url(./images/menu_button.png) 50% 50% / cover;
+    width: 22px; height: 17px;
+    margin: 10px 0;
+}
+/* 햄버거 버튼 클릭시 */
+.chancel {
+    background: url(./images/chancel.png) 50% 50% / cover;
+    width: 22px; height: 17px;        margin: 10px 0;
+}
+.hide {
+    display: none;
+    height: calc(100vh - 71px);
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+}
+/* 메뉴창 열림 */
+.show {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-color: #fff;
+    position: absolute;
+    top: 70px; left: 0; right: 0;
+}
+.show li {
+    padding: 0 32px;
+}
+.show li a {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Calibre";
+    font-weight: 600;
+    display: block;
+    color: #222;
+    padding: 20px 0;
+    border-bottom: 1px solid #dedede;
+    position: unset;
+}
+.hide li {
+    padding: 0 32px;
+}
+.hide li a {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Calibre";
+    font-weight: 600;
+    display: block;
+    color: #222;
+    padding: 20px 0;
+    border-bottom: 1px solid #dedede;
+    position: unset;
+}
+.show .color {
+    color: #1ace5e;
+}
+font {
+    font-style: none;
+}
+
 /* main 영역 */
 .content .bg {
     height: 580px;
     background: url(./images/bg.jpg) no-repeat 50% 50% / cover;
-    z-index: -2;  
 }
 .content .bg .box {
     height: 100%; padding: 0 24px;
@@ -79,10 +144,30 @@ nav {
     padding: 0 24px;
 }
 
+/* about 영역 */
+.about {
+    padding: 60px 0;
+}
+.title {
+    font-family: "Calibre";
+    font-weight: 700;
+    color: #1ace5e;
+}
+.txt {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 25px;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
 /* vision 영역 */
 .vision {
     background-color: #f7fafd;
     padding: 60px 0;
+}
+.box {
+    padding: 0 24px;
 }
 .vision .title {
     text-align: left;
@@ -211,8 +296,78 @@ footer .box {
     display: block;
     position: unset;
 }
-#down.up {
+.selet_wrap {
+    width: 100%;
+    position: relative;
+}
+.select {
+    font-size: 14px;
+    line-height: 16px;    
+    font-family: "NanumSquare";
+    font-weight: 800;
+    text-align: left;
+    width: 100%;
+    padding: 13px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background: url(./images/arrow_down.svg) no-repeat 100% 50%;
+    background-size: 20px;
+    appearance: none;
+}
+.trun {
+    font-size: 14px;
+    line-height: 16px;    
+    font-family: "NanumSquare";
+    font-weight: 800;
+    text-align: left;
+    width: 100%;
+    padding: 13px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background: url(./images/arrow_up.svg) no-repeat 100% 50%;
+    background-size: 20px;
+    appearance: none;
+}
+.down {
+    width: 100%;
+    position: absolute;
+    top: 0; bottom: auto;
+    padding: 15px;
+    transform: translateY(-100%);
+    border: 1px solid #000;
+    background-color: #fff;
+    z-index: 2;
+    display: none;
+}
+.down li a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #222;
     display: block;
+    position: unset;
+}
+.on {
+    width: 100%;
+    position: absolute;
+    top: 0px; bottom: auto;
+    padding: 15px;
+    transform: translateY(-100%);
+    border: 1px solid #000;
+    background-color: #fff;
+    z-index: 2;
+    display: block;
+}
+.on li a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #222;
+    display: block;
+    position: unset;
+}
+font {
+    font-style: none;
 }
 .copyright {
     margin-top: 35px;

@@ -1,15 +1,15 @@
 import React from 'react';
 
-import css from "./swiper.css"
+import css from "./Style.module.css"
 // swiper
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, {Pagination} from "swiper"
 import "./swiper.css"
 
-import bg4 from "../images/mission_bg4.jpg"
-import bg1 from "../images/mission_bg1.jpg"
-import bg2 from "../images/mission_bg2.jpg"
-import bg3 from "../images/mission_bg3.jpg"
+import bg4 from "./images/mission_bg4.jpg"
+import bg1 from "./images/mission_bg1.jpg"
+import bg2 from "./images/mission_bg2.jpg"
+import bg3 from "./images/mission_bg3.jpg"
 
 SwiperCore.use([Pagination])
 
