@@ -4,7 +4,6 @@ html {
     width: 100%;
     min-width: 320px;
     max-width: 450px;
-    height: 886px;
     margin: 0 auto;
 }
 body {
@@ -38,11 +37,6 @@ header {
     z-index: 50;
     position: sticky;
     top: 0px;
-}
-header.up {
-    height: 100%;
-    background-color: #fff;
-    z-index: 50;
 }
 nav {
     max-width: 440px;
