@@ -13,6 +13,7 @@ function App() {
           fontSize: 32,
           fontWeight: 800,
           marginTop: 100,
+          border: 0,
       }}><strong style={{
         color : "#1ace5e",
         fontWeight : 800,

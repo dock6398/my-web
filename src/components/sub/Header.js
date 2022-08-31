@@ -16,6 +16,14 @@ const Header = () => {
                 </div>
                 <Navtoggle />
             </nav>
+            <div className={style.subHeader}>
+                <ul className={style.tablist}>
+                    <li><a href="#">연구 과제 공모</a></li>
+                    <li><a href="#">연구 데이터 공개</a></li>
+                    <li><a href="#">연구 성과</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
         </header>
     );
 };

@@ -16,14 +16,6 @@ const Sub = () => {
         <div className={style.container}>
             <h1>Sub페이지 입니다.</h1>
             <Header />
-            <div className={style.subHeader}>
-                <ul className={style.tablist}>
-                    <li><a href="#">연구 과제 공모</a></li>
-                    <li><a href="#">연구 데이터 공개</a></li>
-                    <li><a href="#">연구 성과</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
             <main>
                 <div className={style.content}>
                     <div className={style.bg}>

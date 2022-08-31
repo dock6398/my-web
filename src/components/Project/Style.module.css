@@ -6,7 +6,6 @@ html {
     max-width: 450px;
     height: 886px;
     margin: 0 auto;
-    overflow-x: hidden;
 }
 body {
     width: 100%;
@@ -15,7 +14,6 @@ body {
     max-width: 450px;
     font-family: "NanumSquare", "나눔스퀘어", "나눔고딕", "맑은고딕", "돋움", sans-serif;
     font-weight: 800;
-    overflow-x: hidden;
     margin: 50px auto;
 }
 
@@ -29,7 +27,8 @@ body {
 h1 {
     font-size: 36px;
     font-weight: 800;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #000;
 }
 .container header {
     width: 100%;
@@ -37,6 +36,8 @@ h1 {
     max-width: 440px;
     height: 70px;
     z-index: 50;
+    position: sticky;
+    top: 0px;
 }
 .container header.up {
     height: 100%;
@@ -51,9 +52,6 @@ nav {
     padding: 0 24px;
     justify-content: space-between;
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 .tag {
     display: block;
@@ -126,6 +124,9 @@ font {
 }
 
 /* main 영역 */
+.content {
+    overflow: hidden;
+}
 .content .bg {
     height: 580px;
     background: url(./images/bg.jpg) no-repeat 50% 50% / cover;
