@@ -1,21 +1,29 @@
 import React from 'react';
 import { useState, useEffect } from "react";
 // 리셋
-import "../../assets/css/minireset.css"
+import "../assets/css/minireset.css"
 // font
-import "../../assets/css/font.css"
+import "../assets/css/font.css"
+
+import logo from "../Project/images/connect.png"
 
 import style from './Style2.module.css'
 
-import Header from './Header'
+import Header from '../components/Header'
 import Section from './Section'
-import Footer from './Footer'
+import Footer from '../components/Footer'
 
 const Sub = () => {
     return (
         <div className={style.container}>
-            <h1>Sub페이지 입니다.</h1>
-            <Header />
+            <div className={style.subHeader}>
+                <ul className={style.tablist}>
+                    <li><a href="#">연구 과제 공모</a></li>
+                    <li><a href="#">연구 데이터 공개</a></li>
+                    <li><a href="#">연구 성과</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
             <main>
                 <div className={style.content}>
                     <div className={style.bg}>
@@ -28,7 +36,6 @@ const Sub = () => {
                     <Section />
                 </div>
             </main>
-            <Footer />
         </div>
     );
 };

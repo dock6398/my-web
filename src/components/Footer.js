@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Style2.module.css'
+import style from '../Project/Style.module.css'
 
 import Footertoggle from './Footertoggle'
 
