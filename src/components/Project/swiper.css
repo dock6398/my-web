@@ -1,11 +1,11 @@
 .swiper {
     width: 285px;
     margin: 0 -12px;
+    padding: 0 24px;
     padding-bottom: 60px;
     position: relative;
     overflow: unset;
     --swiper-theme-color: #1ace5e;
-    padding: 0 24px;
     display: flex;
 }
 .swiper-wrapper {
