@@ -5,13 +5,10 @@ import "../assets/css/minireset.css"
 // font
 import "../assets/css/font.css"
 
-import logo from "../Project/images/connect.png"
 
-import style from './Style2.module.css'
+import style from '../sub/Style2.module.css'
 
-import Header from '../components/Header'
-import Section from './Section'
-import Footer from '../components/Footer'
+import Section from '../sub/Section'
 
 const Sub = () => {
     return (

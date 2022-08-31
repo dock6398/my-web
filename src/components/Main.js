@@ -5,14 +5,11 @@ import "../assets/css/minireset.css"
 // font
 import "../assets/css/font.css"
 // my css
-import style from "./Style.module.css"
+import style from "../Project/Style.module.css"
 
-import logo from "./images/connect.png";
-import Swiper from './Swiper';
-import About from './About'
-import Header from "../components/Header"
-import Vision from './Vision';
-import Footer from '../components/Footer'
+import Swiper from '../Project/Swiper';
+import About from '../Project/About'
+import Vision from '../Project/Vision';
 
 
 const Main = () => {

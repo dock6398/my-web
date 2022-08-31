@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import style from '../Project/Style.module.css'
 import logo from "../Project/images/connect.png"
-import Main from "../Project/Main"
-import Sub from "../sub/Sub"
+import Main from ".//Main"
+import Sub from "./Sub"
 
 const Header = () => {
 
@@ -32,7 +32,7 @@ const togglebutton = () => {
           togglebutton()
         }}>
     <ul className={isOpen ? (style.show) : (style.hide)}>
-        <li><Link to="/Main" className= {style.color}>About(Main)</Link></li>
+        <li><Link to="/" className= {style.color}>About(Main)</Link></li>
         <li><a href="#">Service</a></li>
         <li><Link to="/sub" className= {style.color}>Research(Sub)</Link></li>
         <li><a href="#">News</a></li>
