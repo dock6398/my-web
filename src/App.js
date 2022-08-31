@@ -15,14 +15,10 @@ function App() {
       <BrowserRouter>
         <>
         <Header />
-          <div style={{
-            paddingTop : 500
-          }}>
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/sub" element={<Sub />} />
           </Routes>
-          </div>
         <Footer />
         </>
       </BrowserRouter>
