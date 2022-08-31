@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-web/static/css/main.72ce5a92.css",
-    "main.js": "/my-web/static/js/main.eef63111.js",
+    "main.css": "/my-web/static/css/main.8371b498.css",
+    "main.js": "/my-web/static/js/main.732a8a1d.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-web/static/js/787.28cb0dcd.chunk.js",
     "static/media/SpoqaHanSansNeo-Bold.woff": "/my-web/static/media/SpoqaHanSansNeo-Bold.2d6d79312435959f1573.woff",
     "static/media/SpoqaHanSansNeo-Medium.woff": "/my-web/static/media/SpoqaHanSansNeo-Medium.d2e942d7090c0987cbac.woff",
@@ -20,6 +20,7 @@
     "static/media/NanumSquareEB.woff": "/my-web/static/media/NanumSquareEB.7d151609ddcace23c6c7.woff",
     "static/media/story_bg.png": "/my-web/static/media/story_bg.d20b0525dfd7f3a5743a.png",
     "static/media/FiraSans-Bold.woff2": "/my-web/static/media/FiraSans-Bold.e0b5b9edccd651118392.woff2",
+    "static/media/list2.png": "/my-web/static/media/list2.d893197224dccb97f853.png",
     "static/media/FiraSans-Regular.woff2": "/my-web/static/media/FiraSans-Regular.1f18816a58d3a2712076.woff2",
     "static/media/FiraSans-Bold.woff": "/my-web/static/media/FiraSans-Bold.e7e40bad320db09e9082.woff",
     "static/media/FiraSans-Regular.woff": "/my-web/static/media/FiraSans-Regular.d162e9150b33102ff994.woff",
@@ -31,6 +32,8 @@
     "static/media/main_text.png": "/my-web/static/media/main_text.2005939e3cb6a3be7012.png",
     "static/media/SourceSerif4-Regular.woff": "/my-web/static/media/SourceSerif4-Regular.4dbfe8b7cccd39942918.woff",
     "static/media/GoldplayAlt-Black.woff2": "/my-web/static/media/GoldplayAlt-Black.8c31718d9221251f5e83.woff2",
+    "static/media/list.png": "/my-web/static/media/list.80328a925785c46dbab4.png",
+    "static/media/research_bg.png": "/my-web/static/media/research_bg.2a87038b6c76dd7df9de.png",
     "static/media/CooperBlackStd.woff2": "/my-web/static/media/CooperBlackStd.74bd8b8cf6bd83f74b09.woff2",
     "static/media/mission_bg2.jpg": "/my-web/static/media/mission_bg2.7b217a2a9457d52dc2bc.jpg",
     "static/media/GoldplayAlt-Black.woff": "/my-web/static/media/GoldplayAlt-Black.572f3e2cda536c6efa46.woff",
@@ -54,12 +57,12 @@
     "index.html": "/my-web/index.html",
     "static/media/arrow_up.svg": "/my-web/static/media/arrow_up.a9d0fda0b3ef93e52697.svg",
     "static/media/arrow_down.svg": "/my-web/static/media/arrow_down.6ecdbe88604a95adabd3.svg",
-    "main.72ce5a92.css.map": "/my-web/static/css/main.72ce5a92.css.map",
-    "main.eef63111.js.map": "/my-web/static/js/main.eef63111.js.map",
+    "main.8371b498.css.map": "/my-web/static/css/main.8371b498.css.map",
+    "main.732a8a1d.js.map": "/my-web/static/js/main.732a8a1d.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72ce5a92.css",
-    "static/js/main.eef63111.js"
+    "static/css/main.8371b498.css",
+    "static/js/main.732a8a1d.js"
   ]
 }
