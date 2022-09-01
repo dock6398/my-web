@@ -8,7 +8,6 @@ html {
 }
 body {
     width: 100%;
-    border: 5px solid #000;
     min-width: 320px;
     max-width: 450px;
     font-family: "NanumSquare", "나눔스퀘어", "나눔고딕", "맑은고딕", "돋움", sans-serif;
@@ -18,6 +17,7 @@ body {
 
 .container {
     width: 100%;
+    border: 5px solid #000;
     min-width: 320px;
     max-width: 450px;
     height: 100%;
@@ -61,6 +61,7 @@ nav {
     background: url(./images/menu_button.png) 50% 50% / cover;
     width: 22px; height: 17px;
     margin: 10px 0;
+    cursor: pointer;
 }
 /* 햄버거 버튼 클릭시 */
 .chancel {

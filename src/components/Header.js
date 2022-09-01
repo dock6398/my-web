@@ -33,7 +33,7 @@ const togglebutton = () => {
     <ul className={isOpen ? (style.show) : (style.hide)}>
         <li><a herf="#" >About</a></li>
         <li><a href="#">Service</a></li>
-        <li><Link to="/sub" className= {style.color}>Research(Sub)</Link></li>
+        <li><Link to="/sub" className= {style.color}>Research(Click)</Link></li>
         <li><a href="#">News</a></li>
         <li><a href="#">Apply</a></li>
        <li><a href="#">Contact</a></li>

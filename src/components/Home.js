@@ -15,7 +15,6 @@ import Vision from '../Project/Vision';
 const Main = () => {
 
     return (
-        <div className={style.container}>
             <main>
                 <div className={style.content}>
                     <div className={style.bg}>
@@ -63,7 +62,6 @@ const Main = () => {
                     <Swiper />
                 </div>
             </main>
-        </div>
     );
 };
 

@@ -12,7 +12,7 @@ import Section from '../sub/Section'
 
 const Sub = () => {
     return (
-        <div className={style.container}>
+        <div>
             <div className={style.subHeader}>
                 <ul className={style.tablist}>
                     <li><a href="#">연구 과제 공모</a></li>
