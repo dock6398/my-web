@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-web/static/css/main.6c88aec1.css",
-    "main.js": "/my-web/static/js/main.4caa03e8.js",
+    "main.css": "/my-web/static/css/main.4cf448d8.css",
+    "main.js": "/my-web/static/js/main.8d8a4fa0.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-web/static/js/787.28cb0dcd.chunk.js",
     "static/media/SpoqaHanSansNeo-Bold.woff": "/my-web/static/media/SpoqaHanSansNeo-Bold.2d6d79312435959f1573.woff",
     "static/media/SpoqaHanSansNeo-Medium.woff": "/my-web/static/media/SpoqaHanSansNeo-Medium.d2e942d7090c0987cbac.woff",
@@ -57,12 +57,12 @@
     "index.html": "/my-web/index.html",
     "static/media/arrow_up.svg": "/my-web/static/media/arrow_up.a9d0fda0b3ef93e52697.svg",
     "static/media/arrow_down.svg": "/my-web/static/media/arrow_down.6ecdbe88604a95adabd3.svg",
-    "main.6c88aec1.css.map": "/my-web/static/css/main.6c88aec1.css.map",
-    "main.4caa03e8.js.map": "/my-web/static/js/main.4caa03e8.js.map",
+    "main.4cf448d8.css.map": "/my-web/static/css/main.4cf448d8.css.map",
+    "main.8d8a4fa0.js.map": "/my-web/static/js/main.8d8a4fa0.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c88aec1.css",
-    "static/js/main.4caa03e8.js"
+    "static/css/main.4cf448d8.css",
+    "static/js/main.8d8a4fa0.js"
   ]
 }
