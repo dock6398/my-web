@@ -1,12 +1,12 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import "./assets/css/minireset.css"
 import "./Project/Style.module.css"
 
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import Main from "./components/Main"
+import Home from "./components/Home"
 import Sub from "./components/Sub"
 
 
@@ -14,16 +14,16 @@ import Sub from "./components/Sub"
 function App() {
 
   return (
-      <BrowserRouter>
+      <HashRouter>
         <>
         <Header />
-          <Routes>
-            <Route path="/" element={<Main />} />
+        <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/sub" element={<Sub />} />
-          </Routes>
+        </Routes>
         <Footer />
         </>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 

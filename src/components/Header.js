@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 import style from '../Project/Style.module.css'
 import logo from "../Project/images/connect.png"
-import Main from ".//Main"
-import Sub from "./Sub"
+
 
 const Header = () => {
 
