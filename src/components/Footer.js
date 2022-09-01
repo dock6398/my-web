@@ -23,6 +23,7 @@ const Footer = () => {
                 <p>connect.info@connect.or.kr</p>
             </address>
         </div>
+        <a href="https://dock6398.github.io/portfolio/" className={style.poto}><span>포토폴리오로 바로가기</span></a>
     </footer>
     );
 };
